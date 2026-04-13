@@ -1,0 +1,61 @@
+# Python caches, bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit config
+.streamlit/
+
+# NLTK / data / models
+nltk_data/
+data/
+models/
+*.h5
+*.pt
+*.ckpt
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Notebooks
+.ipynb_checkpoints
+
+# Logs and DBs
+*.log
+logs/
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / envs
+.env
+.env.*
+secrets.toml
+
+# Misc
+*.bak
+*.tmp
